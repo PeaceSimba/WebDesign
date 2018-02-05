@@ -1,0 +1,834 @@
+    html {
+        margin: 0;
+    }
+
+    body {
+        font-family: cursive;
+        margin: 0;
+    }
+
+    nav {
+        min-width: 99%;
+        top: 0;
+        overflow: hidden;
+        background-color: white!important;
+        position: fixed;
+    }
+
+    nav ul {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0)0%, rgba(255, 255, 255, 0.2)25%, rgba(255, 255, 255, 0.2)75%, rgba(255, 255, 255, 0)100%);
+        border-radius: 10px;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        padding: 20px;
+        color: #000000;
+        font-size: 1.4em;
+        font-family: cursive;
+        text-decoration: none;
+        display: block;
+    }
+
+    nav ul li a:hover,
+    .hover:hover {
+        color: black!important;
+        background-color: lightgray;
+        border-radius: 10px;
+    }
+
+    .active {
+        border-top: solid;
+        border-bottom: solid;
+        border-top-color: skyblue;
+        border-bottom-color: skyblue;
+        border-radius: 10px;
+        color: black;
+        background-color: lightgray;
+    }
+
+    .list {
+        list-style: none;
+        font-family: cursive;
+        color: white;
+    }
+
+    footer {
+        padding: 2%;
+        position: relative;
+    }
+
+    li a {
+        font-size: 1.2em;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: rgb(141, 199, 165);
+    }
+
+    .bold {
+        font-size: 1.4em;
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: rgb(26, 22, 22);
+    }
+
+    .partners,
+    .partners a {
+        color: white;
+    }
+
+    .partners a:hover {
+        text-decoration: none;
+    }
+
+    .write {
+        font-size: 1.3em;
+        padding-left: 250px;
+        padding-top: 0px;
+    }
+
+    .write-us-button {
+        border: solid;
+        border-width: 1px;
+        border-radius: 20px;
+        color: white;
+        border-color: white;
+        background-color: rgb(26, 22, 22);
+        width: 130pt;
+        height: 40pt;
+        font-size: 0.8em;
+        letter-spacing: 2px;
+        margin-left: 22%;
+    }
+
+    .write-us-button:hover {
+        color: lightskyblue;
+        border-color: lightskyblue;
+    }
+
+    .floating-box {
+        display: inline-block;
+    }
+
+    span {
+        margin-left: 5%;
+    }
+
+    .span-center2 {
+        margin-left: 15%
+    }
+
+    .span-center3 {
+        margin-left: 25%;
+    }
+
+    .span-central4 {
+        margin-left: 35%;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        background-color: lightgray;
+        color: black;
+    }
+
+    .fa-facebook:hover {
+        background-color: blue;
+        color: white;
+    }
+
+    .fa-twitter:hover {
+        background-color: rgb(30, 127, 160);
+        color: white;
+    }
+
+    .fa-google-plus:hover {
+        background-color: rgb(180, 58, 58);
+        color: white;
+    }
+
+    .fa-linkedin:hover {
+        background-color: blue;
+        color: white;
+    }
+
+    .fa-youtube:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .fa-instagram:hover {
+        background-color: rgb(145, 41, 122);
+        color: white;
+    }
+
+    .fa-pinterest:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .fa-skype:hover {
+        background-color: rgb(99, 99, 241);
+        color: white;
+    }
+
+    .fa-reddit:hover {
+        background-color: red;
+        color: whitesmoke;
+    }
+
+    .footer-envelope {
+        background-color: rgb(26, 22, 22);
+        color: white;
+    }
+
+    .follow {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .media {
+        margin-left: 10%;
+        margin-top: 1px;
+    }
+    /*styling the contact us page */
+
+    .fieldset {
+        border-width: 1pt;
+        background-color: white;
+        border-radius: 5%;
+        width: 40%;
+        height: 70%;
+        margin-left: 30%;
+    }
+
+    input {
+        margin-left: 10%;
+        width: 60%;
+        padding: 10px 12px;
+    }
+
+    form {
+        padding: 30px;
+    }
+
+    label {
+        font-size: 1.1em;
+        padding: 20px;
+    }
+
+    fieldset form p {
+        font-size: 1.4em;
+    }
+
+    textarea {
+        width: 60%;
+        height: 150pt;
+        margin-left: 10%;
+    }
+
+    .submit-button {
+        border: none;
+        background-color: rgb(18, 194, 91);
+        width: 40%;
+        height: 60%;
+        border-radius: 20px;
+        margin-left: 30%;
+        font-size: 1.1em;
+        color: white;
+        cursor: pointer;
+        padding: 8px 0;
+    }
+
+    .submit-button:hover {
+        box-shadow: 3px 2px 2px 2px lightgray;
+    }
+
+    hr {
+        width: 50%;
+        text-align: center;
+    }
+
+    .contact-us {
+        font-weight: bold;
+        color: lightgreen;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .look-forward {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .subscribe {
+        height: 30%;
+        padding: 20px;
+        background-color: #3f3c3c;
+        position: relative;
+    }
+
+    .subscribe-button {
+        color: white;
+        border: none;
+        width: 25%;
+        padding-top: 12px;
+        padding-bottom: 19px;
+        background-color: lightgreen;
+        font-size: 1.4em;
+        outline: none;
+    }
+
+    .subscribe-button:hover {
+        color: black;
+        background-color: lightgrey;
+    }
+
+    .subscribe-email {
+        width: 50%;
+        padding: 20px 20px;
+        outline: none;
+    }
+
+    .mail-us {
+        text-align: center;
+        font-size: 1.2em;
+        color: lightgreen;
+        font-weight: bold;
+    }
+
+    address {
+        color: lightgray;
+        font-size: 1.1em;
+    }
+
+    .contact-footer-email {
+        color: lightgreen;
+    }
+
+    .classes-link {
+        background-image: url("dancers1.jpg");
+        background-size: 1000px 800px;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 40%;
+        margin-left: 25%;
+        z-index: 100;
+    }
+    /* about page */
+
+    .about {
+        background-image: url("dancers1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .about-div {
+        width: 40%;
+        margin-left: 30%;
+        height: 60%;
+        padding: 20px;
+        background-color: lightgrey;
+        transition: width 2s, height 2s;
+    }
+
+    .about-div:hover {
+        width: 42%;
+        height: 62%;
+    }
+
+    .contactUs {
+        background-image: url("blackdancers.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+        background-size: cover;
+        background-blend-mode: lighten;
+    }
+
+    .spaces {
+        padding: 7%;
+    }
+
+    .company-name-about {
+        color: lightblue;
+        font-size: 4em;
+        font-family: monotype corsiva;
+        text-align: center;
+    }
+
+    .uniform-head {
+        text-align: center;
+        color: lightgreen;
+    }
+
+    .uniform-div {
+        width: 50%;
+        margin-left: 25%;
+        font-size: 1.1em;
+        font-weight: lighter;
+    }
+
+    .block-uniforms {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .right-uniform {
+        width: 50%;
+        font-weight: lighter;
+        padding: 10px;
+    }
+
+    .uniform-top {
+        padding: 20px;
+    }
+
+    .bottom-uniformguide {
+        width: 50%;
+        height: 20%;
+        margin-left: 25%;
+    }
+
+    .uniform-right {
+        padding: 10px;
+        width: 50%;
+        height: 25%;
+    }
+
+    .special-inline {
+        display: inline-block;
+        margin-left: 25%;
+    }
+
+    .modern {
+        width: 50%;
+        height: 25%;
+    }
+
+    .uniform-list {
+        list-style: none;
+    }
+
+    .no-dangling {
+        width: 50%;
+        height: 20%;
+    }
+
+    .ballet-girls {
+        color: lightgreen;
+    }
+
+    .pointe {
+        width: 50%;
+        height: 20%;
+        margin-left: 25
+    }
+
+    .block2-uniform {
+        margin-left: 25%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .special-note {
+        color: rgb(221, 130, 130);
+        font-size: 1.4em;
+    }
+
+    h3 {
+        color: lightgreen;
+    }
+
+    .backgroundall {
+        background-image: url("minimalist.png");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .underline {
+        text-decoration: underline;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-style: italic;
+        color: lightgreen;
+        margin-left: 5%;
+    }
+
+    .classes-image {
+        float: left;
+    }
+
+    .classes-block {
+        display: inline-block;
+    }
+
+    .moms-div {
+        width: 50%;
+        margin-left: 32%;
+    }
+
+    .star {
+        list-style-type: square;
+    }
+
+    .centre-text {
+        width: 60%;
+        margin-left: 25%;
+    }
+
+    .button-events {
+        border: none;
+        width: 20%;
+        padding: 20px;
+        color: white;
+        background-color: lightgreen;
+        margin-left: 40%;
+        font-size: 1.4em;
+        font-family: MV boli;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .button-events:hover {
+        color: black;
+        background-color: lightgrey;
+    }
+
+    .text-centre {
+        width: 45%;
+        margin-left: 28%;
+    }
+
+    .signup-fieldset {
+        margin-left: 25%;
+        width: 40%;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .signup-fieldset:hover {
+        box-shadow: 2px 2px 2px 2px lightgray;
+    }
+
+    .signup-button {
+        color: white;
+        background-color: blue;
+        width: 30%;
+        padding: 15px;
+        margin-left: 35%;
+        border: none;
+    }
+
+    .signup-button:hover {
+        box-shadow: 1px 1px 1px 1px lightgray;
+    }
+
+    .company-name-signup {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.4em;
+    }
+
+    .signup-input {
+        margin-left: 20%;
+    }
+
+    .signup-heading {
+        text-align: center;
+    }
+
+    .download {
+        text-align: center;
+    }
+
+    .fa-file-pdf-o {
+        font-size: 20px;
+        color: red;
+        background-color: white;
+    }
+
+    .copyright {
+        color: skyblue;
+        text-align: right;
+        margin-right: 5%;
+    }
+    /* home page */
+
+    .how-to-join {
+        background-image: url("wallpaper.jpg");
+        background-size: cover;
+        color: rgb(250, 253, 250);
+        position: relative;
+        width: 55%;
+        height: 40%;
+        margin-top: -15%;
+        margin-left: 23%;
+        padding: 20px;
+        font-size: 1.2em;
+        font-style: oblique;
+        z-index: 1;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0.2px 0.2px 0.2px lightgray;
+        transition: height 2s;
+    }
+
+    .how-to-join:hover {
+        height: 50%;
+    }
+
+    .how-to-join:hover {
+        box-shadow: 0.5px 0.5px 0.5px 0.5px lightgray;
+    }
+
+    video {
+        min-width: 80%;
+        min-height: 10%;
+        top: 0;
+        margin-top: 0;
+        margin-left: 13%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .video-div {
+        background-color: #000000;
+        height: 10%;
+    }
+
+    .home-button {
+        border: solid;
+        border-color: rgb(238, 233, 235);
+        font-size: 1.4em;
+        background-color: transparent;
+        border-width: 1px;
+        width: 15%;
+        border-radius: 20px;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .home-button:hover {
+        border-color: lightcyan;
+        box-shadow: 0.4px 0.1px 0.1px 0.1px lightcyan;
+    }
+
+    #company-name {
+        font-size: 2.1em;
+        font-weight: bold;
+        font-family: Courier New, Courier, monospace;
+        margin-right: 50px;
+    }
+
+    #company-name:hover {
+        background-color: white;
+        text-decoration: underline;
+        text-decoration-color: skyblue;
+    }
+
+    .home-logo {
+        color: white;
+
+        z-index: 40000000;
+        text-align: center;
+        margin-top: -40%;
+        position: relative;
+    }
+
+    .how-to-join h2 {
+        font-size: 1.7em;
+        text-decoration: underline;
+    }
+
+    .home-logo {
+        font-size: 1.5em;
+        font-family: Courier New, Courier, monospace;
+        font-weight: lighter;
+    }
+
+    .buttons-home {
+        z-index: 799990909890;
+        margin-top: 5%;
+    }
+
+    .buttons-home-about,
+    .classes-button {
+        border: none;
+        background-color: lightgrey;
+        transition-property: width;
+        transition-duration: 0.4s;
+        border-width: 1px;
+        width: 15%;
+        color: black;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .buttons-home-about:hover {
+        width: 17%;
+    }
+
+    .buttons-home-contact {
+        border: none;
+        background-color: lightgrey;
+        transition-property: width;
+        transition-duration: 0.4s;
+        border-width: 1px;
+        width: 10%;
+        color: black;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .buttons-home-contact:hover {
+        width: 12%;
+    }
+
+    .buttons-home-uniformguide{
+        border: none;
+        background-color: lightgrey;
+        transition-property: width;
+        transition-duration: 0.5s;
+        border-width: 1px;
+        width: 5%;
+        color: black;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .buttons-home-uniformguide:hover {
+        width: 7%;
+    }
+
+    .classes-div {
+        background-image: url("background.jpg");
+        background-size: cover;
+        color: rgb(250, 253, 250);
+        position: relative;
+        width: 45%;
+        height: 40%;
+        margin-left: 1%;
+        padding: 20px;
+        z-index: 10000000;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0.5px 0.5px 0.2px lightgray;
+    }
+
+    .classes-button {
+        width: 30%;
+        font-size: 1.4em;
+    }
+
+    .classes-button:hover,
+    .exam-button:hover,
+    .events-button:hover {
+        color: black;
+        background-color: lightgray;
+    }
+
+    .classes-div h1 {
+        text-decoration: underline;
+    }
+
+    .classes-div p {
+        font-size: 1.2em;
+        font-style: oblique;
+    }
+
+    .exams-div {
+        background-image: url("exams.jpg");
+        background-size: cover;
+        color: rgb(250, 253, 250);
+        position: relative;
+        width: 46%;
+        height: 40%;
+        padding: 20px;
+        padding-right: 30px;
+        z-index: 200;
+        margin-right: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0.5px 0.5px 0.2px lightgray;
+        text-align: right;
+        font-style: oblique;
+        font-size: 1.2em;
+    }
+
+    .home-block {
+        display: inline-block;
+    }
+
+    .exams-div h1 {
+        text-decoration: underline;
+    }
+
+    .exam-button {
+        border: none;
+        background-color: rgb(77, 180, 94);
+        width: 30%;
+        padding: 7px;
+        color: white;
+        font-size: 1.3em;
+    }
+
+    .events-button {
+        background-color: rgb(87, 77, 180);
+        width: 20%;
+        padding: 7px;
+        color: white;
+        font-size: 1.3em;
+        border: none;
+    }
+
+    .events-div {
+        background-image: url("images1.jpg");
+        font-family: 'Times New Roman', Times, serif;
+        background-size: cover;
+        color: rgb(250, 253, 250);
+        position: relative;
+        width: 60%;
+        height: 40%;
+        padding: 20px;
+        margin-left: 20%;
+    }
+
+    .events-div h1 {
+        text-decoration: underline;
+    }
+
+    .events-div p {
+        font-style: oblique;
+        font-size: 1.2em;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    .background {
+        background-image: url("b.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
